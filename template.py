@@ -19,7 +19,7 @@ list_of_files = [
     f"{project_name}/entity/__init__.py",
     f"config/config.yaml",
     f"config/schema.yaml",
-    "schema.yaml"
+    "schema.yaml",
     "setup.py",
     "main.py",
     "app.py",
