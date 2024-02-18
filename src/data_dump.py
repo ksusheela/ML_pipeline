@@ -21,4 +21,5 @@ if __name__ == "__main__":
 
     print(joson_record[0])
 
+
     client[DATABASE][COLLECTION_NAME].insert_many(joson_record)
