@@ -1,13 +1,13 @@
 from flask import Flask
-#from src.logger.logs import logging
 from src.logger import logging
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET','POST'])
+@app.route('/', methods = ['GET', 'POST'])
 def index():
-    logging.info("we are testing ourlogging module")
-    return " success"
+    logging.info("We are testing our logging file")
 
-if __name__ =='__main__':
-    app.run(debug=True)  #500
+    return "Welcome to Engineering Wala Bhiya"
+
+if __name__ == "__main__":
+    app.run(debug = True) # 5000    
