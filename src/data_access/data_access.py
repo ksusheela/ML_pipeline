@@ -16,7 +16,9 @@ def mongodb_client():
 
     mongo_db_url = f"mongodb+srv://{username}:{password}@{cluster_name}.mongodb.net/?retryWrites=true&w=majority"
 
+
     print(mongo_db_url)
     client = pymongo.MongoClient(mongo_db_url)
+
 
     return client

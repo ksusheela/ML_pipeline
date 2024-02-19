@@ -6,7 +6,7 @@ from pymongo.mongo_client import MongoClient
 uri = "mongodb+srv://purnima11:Pavanpabba629@cluster0.twh81ir.mongodb.net/?retryWrites=true&w=majority"
 
 
-DATA_FILE_PATH = (r"")
+DATA_FILE_PATH = (r"C:\\ML_pipeline\\data\\train.csv")
 DATABASE = "Machine_learning"
 COLLECTION_NAME = "DATASET"
 
@@ -32,4 +32,3 @@ if __name__ =="__main__":
 
     # Close the mongoDB connection
     client.close()
-
