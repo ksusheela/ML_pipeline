@@ -1,5 +1,5 @@
 from flask import Flask
-import sys
+import os, sys
 #from src.logger.logs import logging
 from src.logger import logging
 from src.exception import CustomException
@@ -15,6 +15,7 @@ def index():
         test = CustomException(e, sys)
 
         logging.info(test.error_message )
+        
         logging.info("we are testing ourlogging module")
         return " success"
 
