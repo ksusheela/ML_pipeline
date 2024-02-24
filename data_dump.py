@@ -1,10 +1,11 @@
 import pandas as pd
 import os, sys
 import pymongo
+from pymongo import MongoClient
 import json
 from schema import write_Schema_yaml
 #from pathlib import Path
-#from pymongo.mongo_client import MongoClient
+#from pymongo import MongoClient
 
 uri = "mongodb+srv://purnima11:Pavanpabba629@cluster0.twh81ir.mongodb.net/?retryWrites=true&w=majority"
 

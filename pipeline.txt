@@ -2,9 +2,9 @@
 
 a. config.yaml-- completed
 b. constant file --completed
-c. config_entity
-d. artifact_entity
-e. helper function
+c. config_entity -- completed
+d. artifact_entity -- completed
+e. helper function-- completed
 f. data_ingestion file
 g. training_pipeline
 h. testing

@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     logging.info("We are testing our logging file")
 
-    return "Welcome to Engineering Wala Bhiya"
+    return "Welcome to project"
 
 if __name__ == "__main__":
-    app.run(debug = True) # 5000    
+    app.run(debug = True) 

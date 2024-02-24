@@ -13,6 +13,6 @@ conda create -p env python=3.9 -y
 conda activate ./env
 
 3. install requirements file 
-pip install -rrequirements.txt
+pip install -r requirements.txt
 
 

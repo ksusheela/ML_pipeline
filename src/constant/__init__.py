@@ -1,5 +1,7 @@
 import os, sys
 
+FILE_NAME = "data.csv"
+
 ROOT_DIR = os.getcwd()
 CONFIG_DIR = 'config'
 SCHEMA_FILE = 'config.yaml'
